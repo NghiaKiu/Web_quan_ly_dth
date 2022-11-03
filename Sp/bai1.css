@@ -54,6 +54,11 @@ body {
     margin-top: 80px;
 }
 
+
+.google {
+    padding: 10px !important;
+}
+
 h3{
     font-size: 24px;
     color: brown;
@@ -192,4 +197,9 @@ ul.products li .product-info .product-price {
     height: 38px;
     margin-top:29px;
     color:#fff;
+}
+
+@media (min-width: 740px) and (max-width: 1023px)
+.products li {
+    flex-basis: 40% !important;
 }

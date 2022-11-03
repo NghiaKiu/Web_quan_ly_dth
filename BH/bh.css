@@ -396,8 +396,6 @@
     margin-left: 55px;
     margin: auto;
     padding: 10px;
-    width: 1100px;
-
 }
 .bh-maintile img {
     margin-top: 20px;
@@ -408,8 +406,6 @@
 .policy-table table{
     margin: auto;
     padding: 10px;
-    width: 1100px;
-    
 }
 .policy-table table,td,tr, th 
 {
@@ -421,7 +417,7 @@
     text-align: center;
 }
 .policy-table table tr td.result{
-    Width: 400px;
+    /* Width: 400px; */
     Text-Align: right;
     Padding-Right: 5px;
 }
@@ -488,3 +484,12 @@ cursor:pointer;
     animation :animation 3s infinite linear; 
 }
 
+
+
+/* Reponsive */
+
+@media screen and (max-width: 62.5em) {
+    #banner2 {
+        display: none;
+    }
+}

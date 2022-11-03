@@ -69,11 +69,21 @@ img{
     font-weight: 600;
 }
 .col-4-3 {
+    float: left;
+    text-align: center;
+}
+
+.space-between-pc {
+    margin: 0 15px;
+}
+
+.col-8-3{
     width: 30%;
     /* margin: 0 5px; */
     float: left;
     text-align: center;
 }
+
 .color-inner{
     display: flex;
     align-items: center;
@@ -89,6 +99,7 @@ img{
 }
 .form-paycheck {
     margin: 50px 0px;
+    display: flex;
 }
 
 .form-paycheck .col-4-3 {
@@ -300,7 +311,7 @@ h3 {
     border-radius: 2px;
     background: #fff;
     border: solid 1px #337ab7;
-    width: 100%;
+    width: 98%;
     font-weight: 600;
 }
 
@@ -320,14 +331,17 @@ h3 {
     background-color: rgba(0, 0, 0, 0.4);
     display: none;
     overflow: auto;
+    justify-content: center;
 }
 
 .modal-container {
-    margin: 30px 0;
+    margin: 10px 0;
     border-radius: 5px;
     background-color: white;
     max-width: 700px;
-    margin: 30px 316px;
+    position: absolute;
+    width: 100%;
+    /* left: 25%; */
 }
 
 .content-t-wrap {
@@ -379,7 +393,8 @@ h3 {
     width: 70%;
 }
 .open {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 .turnoff {
     display: none;
@@ -438,4 +453,34 @@ h3 {
     user-select: none;
     color: white;
     background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+}
+
+
+/* mobile */
+
+.nav-btn{
+    width: 28h;
+    height: 28px;
+    color: white;
+    display: none;
+}
+
+.col-8-3 button {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    background: #f30;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-paycheck .col-8-3 {
+    background: #f30;   
+    padding: 10px 2px;
+    border: #ccc 1px solid;
+
 }

@@ -63,6 +63,18 @@ img{
     max-width: 100%;
 }  
 
+.item-moblie{
+    font-size: 1.9rem !important;
+}
+
+.nav-overlay{
+    z-index: 100 !important;
+}
+
+.icon-menu{
+    margin-top: 12px !important;
+}
+
 input,
 button{
     font: inherit;
@@ -98,6 +110,9 @@ i{
     display: grid;
 }
 
+.google{
+    padding: 10px !important;
+}
 
 /* header */
 
@@ -412,6 +427,19 @@ i{
 /* media queries */
 
 @media screen and (min-width: 700px){
+
+    .menu{
+        position: initial;
+        width: initial;
+        padding: initial;
+        background-color: transparent;
+        opacity: initial;
+        transform: initial;
+    }
+
+    .menu > .list{
+        flex-direction: row;
+    }
     .trending-news-box{
         flex-direction: row;
         align-items: center;
@@ -429,6 +457,19 @@ i{
 
 @media screen and (min-width: 768px){
 
+
+    .menu{
+        position: initial;
+        width: initial;
+        padding: initial;
+        background-color: transparent;
+        opacity: initial;
+        transform: initial;
+    }
+
+    .menu > .list{
+        flex-direction: row;
+    }
     .featured-content{    
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 5rem repeat(4,1fr);
